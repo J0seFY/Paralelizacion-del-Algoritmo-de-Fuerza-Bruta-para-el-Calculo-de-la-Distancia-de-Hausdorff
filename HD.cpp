@@ -124,6 +124,7 @@ void run_experiment(const std::string& testName, const std::vector<Point>& A, co
 int main() {
     
     // --- 1. Definición de los Datos de Prueba ---
+    /*
     std::cout << "Generando conjuntos de datos de prueba..." << std::endl;
     auto setSmall_1k = generateRandomPointCloud(1000);
     auto setSmall_5k = generateRandomPointCloud(5000); // Set "pequeño" alternativo
@@ -132,8 +133,9 @@ int main() {
     auto setMedium_20k = generateRandomPointCloud(20000);
     
     auto setLarge_50k = generateRandomPointCloud(50000);
+    */
     auto setLarge_70k = generateRandomPointCloud(70000);
-    
+    /*
     std::cout << "¡Datos generados! Iniciando experimentos (promedio de 5 ejecuciones)..." << std::endl;
     std::cout << "--------------------------------------------------------------------------" << std::endl;
     std::cout << std::left << std::setw(20) << "Nombre Test" 
@@ -144,18 +146,17 @@ int main() {
     std::cout << "--------------------------------------------------------------------------" << std::endl;
 
     // --- 2. Ejecución Sistemática de Pruebas ---
-    
+
     run_experiment("Pequeño (1k vs 1k)", setSmall_1k, setSmall_1k);
     run_experiment("Pequeño (1k vs 5k)", setSmall_1k, setSmall_5k);
-    
+    run_experiment("Pequeño (5k vs 5k)", setSmall_5k, setSmall_5k);
     run_experiment("Mediano (10k vs 10k)", setMedium_10k, setMedium_10k);
     run_experiment("Mediano (10k vs 20k)", setMedium_10k, setMedium_20k);
-    
+    run_experiment("Mediano (20k vs 20k)", setMedium_20k, setMedium_20k);
     run_experiment("Grande (50k vs 50k)", setLarge_50k, setLarge_50k);
     run_experiment("Grande (50k vs 70k)", setLarge_50k, setLarge_70k);
-    
-    run_experiment("Asimétrico (1k vs 70k)", setSmall_1k, setLarge_70k);
-    
+    */
+    run_experiment("Grande (70k vs 70k)", setLarge_70k, setLarge_70k);
     std::cout << "--------------------------------------------------------------------------" << std::endl;
 
     return 0;

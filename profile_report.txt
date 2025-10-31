@@ -1,0 +1,668 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls   s/call   s/call  name    
+ 23.10    108.23   108.23 1755359744     0.00     0.00  euclidean_distance(Point const&, Point const&)
+ 19.77    200.83    92.60       10     9.26    44.49  directed_hausdorff_distance(std::vector<Point, std::allocator<Point> > const&, std::vector<Point, std::allocator<Point> > const&)
+ 14.36    268.10    67.27 1756759754     0.00     0.00  bool __gnu_cxx::operator!=<Point const*, std::vector<Point, std::allocator<Point> > >(__gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > > const&, __gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > > const&)
+ 13.33    330.54    62.44 1756059744     0.00     0.00  __gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >::operator++()
+ 10.41    379.28    48.74 3513519508     0.00     0.00  __gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >::base() const
+  7.66    415.14    35.87 1756059744     0.00     0.00  __gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >::operator*() const
+  5.09    438.99    23.85  1400020     0.00     0.00  __gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >::__normal_iterator(Point const* const&)
+  2.68    451.53    12.54                             _init
+  2.38    462.66    11.13        4     2.78     2.78  std::setw(int)
+  1.27    468.60     5.94   700010     0.00     0.00  std::vector<Point, std::allocator<Point> >::end() const
+  0.00    468.61     0.01   700010     0.00     0.00  std::vector<Point, std::allocator<Point> >::begin() const
+  0.00    468.62     0.01   140000     0.00     0.00  double std::generate_canonical<double, 53ul, std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul> >(std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>&)
+  0.00    468.62     0.00   280000     0.00     0.00  std::uniform_real_distribution<double>::param_type::a() const
+  0.00    468.62     0.00   280000     0.00     0.00  std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>::min()
+  0.00    468.62     0.00   280000     0.00     0.00  std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>::operator()()
+  0.00    468.62     0.00   280000     0.00     0.00  std::log(long double)
+  0.00    468.62     0.00   210000     0.00     0.00  Point&& std::forward<Point>(std::remove_reference<Point>::type&)
+  0.00    468.62     0.00   140000     0.00     0.00  __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::__normal_iterator(Point* const&)
+  0.00    468.62     0.00   140000     0.00     0.00  std::uniform_real_distribution<double>::param_type::b() const
+  0.00    468.62     0.00   140000     0.00     0.00  double std::uniform_real_distribution<double>::operator()<std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul> >(std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>&)
+  0.00    468.62     0.00   140000     0.00     0.00  double std::uniform_real_distribution<double>::operator()<std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul> >(std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>&, std::uniform_real_distribution<double>::param_type const&)
+  0.00    468.62     0.00   140000     0.00     0.00  std::__detail::_Adaptor<std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>, double>::_Adaptor(std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>&)
+  0.00    468.62     0.00   140000     0.00     0.00  std::__detail::_Adaptor<std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>, double>::operator()()
+  0.00    468.62     0.00   140000     0.00     0.00  unsigned long const& std::max<unsigned long>(unsigned long const&, unsigned long const&)
+  0.00    468.62     0.00    70000     0.00     0.00  __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::operator*() const
+  0.00    468.62     0.00    70000     0.00     0.00  __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::operator-(long) const
+  0.00    468.62     0.00    70000     0.00     0.00  Point& std::vector<Point, std::allocator<Point> >::emplace_back<Point>(Point&&)
+  0.00    468.62     0.00    70000     0.00     0.00  std::vector<Point, std::allocator<Point> >::end()
+  0.00    468.62     0.00    70000     0.00     0.00  std::vector<Point, std::allocator<Point> >::back()
+  0.00    468.62     0.00    70000     0.00     0.00  std::vector<Point, std::allocator<Point> >::push_back(Point&&)
+  0.00    468.62     0.00    70000     0.00     0.00  std::remove_reference<Point&>::type&& std::move<Point&>(Point&)
+  0.00    468.62     0.00    70000     0.00     0.00  operator new(unsigned long, void*)
+  0.00    468.62     0.00      624     0.00     0.00  std::__detail::_Mod<unsigned long, 4294967296ul, 1ul, 0ul, true, true>::__calc(unsigned long)
+  0.00    468.62     0.00      624     0.00     0.00  unsigned long std::__detail::__mod<unsigned long, 4294967296ul, 1ul, 0ul>(unsigned long)
+  0.00    468.62     0.00      623     0.00     0.00  std::__detail::_Mod<unsigned long, 624ul, 1ul, 0ul, true, true>::__calc(unsigned long)
+  0.00    468.62     0.00      623     0.00     0.00  unsigned long std::__detail::__mod<unsigned long, 624ul, 1ul, 0ul>(unsigned long)
+  0.00    468.62     0.00      449     0.00     0.00  std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>::_M_gen_rand()
+  0.00    468.62     0.00       15     0.00     0.00  std::chrono::duration<long, std::ratio<1l, 1000000000l> >::count() const
+  0.00    468.62     0.00       10     0.00     0.00  std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::time_since_epoch() const
+  0.00    468.62     0.00        5     0.00    88.99  hausdorff_distance(std::vector<Point, std::allocator<Point> > const&, std::vector<Point, std::allocator<Point> > const&)
+  0.00    468.62     0.00        5     0.00     0.00  std::chrono::duration<long, std::ratio<1l, 1000l> >::count() const
+  0.00    468.62     0.00        5     0.00     0.00  std::enable_if<std::chrono::__is_duration<std::chrono::duration<long, std::ratio<1l, 1000l> > >::value, std::chrono::duration<long, std::ratio<1l, 1000l> > >::type std::chrono::duration_cast<std::chrono::duration<long, std::ratio<1l, 1000l> >, long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&)
+  0.00    468.62     0.00        5     0.00     0.00  std::chrono::duration<long, std::ratio<1l, 1000l> > std::chrono::__duration_cast_impl<std::chrono::duration<long, std::ratio<1l, 1000l> >, std::ratio<1l, 1000000l>, long, true, false>::__cast<long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&)
+  0.00    468.62     0.00        5     0.00     0.00  std::chrono::duration<long, std::ratio<1l, 1000000000l> >::duration<long, void>(long const&)
+  0.00    468.62     0.00        5     0.00     0.00  std::chrono::duration<long, std::ratio<1l, 1000l> >::duration<long, void>(long const&)
+  0.00    468.62     0.00        5     0.00     0.00  std::common_type<std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::type std::chrono::operator-<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >(std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&, std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&)
+  0.00    468.62     0.00        5     0.00     0.00  std::common_type<std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::type std::chrono::operator-<long, std::ratio<1l, 1000000000l>, long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&, std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&)
+  0.00    468.62     0.00        5     0.00     0.00  double const& std::max<double>(double const&, double const&)
+  0.00    468.62     0.00        4     0.00     0.00  std::operator&(std::_Ios_Fmtflags, std::_Ios_Fmtflags)
+  0.00    468.62     0.00        3     0.00     0.00  std::vector<Point, std::allocator<Point> >::size() const
+  0.00    468.62     0.00        3     0.00     0.00  Point* std::__niter_base<Point*>(Point*)
+  0.00    468.62     0.00        2     0.00     0.00  std::char_traits<char>::length(char const*)
+  0.00    468.62     0.00        2     0.00     0.00  std::_Vector_base<Point, std::allocator<Point> >::_M_deallocate(Point*, unsigned long)
+  0.00    468.62     0.00        2     0.00     0.00  std::_Vector_base<Point, std::allocator<Point> >::_M_get_Tp_allocator()
+  0.00    468.62     0.00        2     0.00     0.00  std::__new_allocator<char>::~__new_allocator()
+  0.00    468.62     0.00        2     0.00     0.00  void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag)
+  0.00    468.62     0.00        2     0.00     0.00  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&)
+  0.00    468.62     0.00        2     0.00     0.00  std::ios_base::setf(std::_Ios_Fmtflags, std::_Ios_Fmtflags)
+  0.00    468.62     0.00        2     0.00     0.00  std::setprecision(int)
+  0.00    468.62     0.00        2     0.00     0.00  std::operator&=(std::_Ios_Fmtflags&, std::_Ios_Fmtflags)
+  0.00    468.62     0.00        2     0.00     0.00  std::operator~(std::_Ios_Fmtflags)
+  0.00    468.62     0.00        2     0.00     0.00  std::operator|=(std::_Ios_Fmtflags&, std::_Ios_Fmtflags)
+  0.00    468.62     0.00        2     0.00     0.00  std::operator|(std::_Ios_Fmtflags, std::_Ios_Fmtflags)
+  0.00    468.62     0.00        2     0.00     0.00  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag)::_Guard::_Guard(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*)
+  0.00    468.62     0.00        2     0.00     0.00  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag)::_Guard::~_Guard()
+  0.00    468.62     0.00        1     0.00   456.08  run_experiment(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<Point, std::allocator<Point> > const&, std::vector<Point, std::allocator<Point> > const&, int)
+  0.00    468.62     0.00        1     0.00     0.01  generateRandomPointCloud(int, double, double)
+  0.00    468.62     0.00        1     0.00     0.00  std::_Vector_base<Point, std::allocator<Point> >::_M_get_Tp_allocator() const
+  0.00    468.62     0.00        1     0.00     0.00  std::vector<Point, std::allocator<Point> >::capacity() const
+  0.00    468.62     0.00        1     0.00     0.00  std::vector<Point, std::allocator<Point> >::max_size() const
+  0.00    468.62     0.00        1     0.00     0.00  void std::_Destroy_aux<true>::__destroy<Point*>(Point*, Point*)
+  0.00    468.62     0.00        1     0.00     0.00  std::_Vector_base<Point, std::allocator<Point> >::_M_allocate(unsigned long)
+  0.00    468.62     0.00        1     0.00     0.00  std::_Vector_base<Point, std::allocator<Point> >::_Vector_impl::_Vector_impl()
+  0.00    468.62     0.00        1     0.00     0.00  std::_Vector_base<Point, std::allocator<Point> >::_Vector_impl::~_Vector_impl()
+  0.00    468.62     0.00        1     0.00     0.00  std::_Vector_base<Point, std::allocator<Point> >::_Vector_impl_data::_Vector_impl_data()
+  0.00    468.62     0.00        1     0.00     0.00  std::_Vector_base<Point, std::allocator<Point> >::_Vector_base()
+  0.00    468.62     0.00        1     0.00     0.00  std::_Vector_base<Point, std::allocator<Point> >::~_Vector_base()
+  0.00    468.62     0.00        1     0.00     0.00  std::random_device::random_device()
+  0.00    468.62     0.00        1     0.00     0.00  std::random_device::~random_device()
+  0.00    468.62     0.00        1     0.00     0.00  std::random_device::operator()()
+  0.00    468.62     0.00        1     0.00     0.00  std::__new_allocator<Point>::deallocate(Point*, unsigned long)
+  0.00    468.62     0.00        1     0.00     0.00  std::__new_allocator<Point>::allocate(unsigned long, void const*)
+  0.00    468.62     0.00        1     0.00     0.00  std::__new_allocator<Point>::~__new_allocator()
+  0.00    468.62     0.00        1     0.00     0.00  std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>::seed(unsigned long)
+  0.00    468.62     0.00        1     0.00     0.00  std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>::mersenne_twister_engine(unsigned long)
+  0.00    468.62     0.00        1     0.00     0.00  std::uniform_real_distribution<double>::param_type::param_type(double, double)
+  0.00    468.62     0.00        1     0.00     0.00  std::uniform_real_distribution<double>::uniform_real_distribution(double, double)
+  0.00    468.62     0.00        1     0.00     0.00  std::vector<Point, std::allocator<Point> >::_S_max_size(std::allocator<Point> const&)
+  0.00    468.62     0.00        1     0.00     0.00  std::vector<Point, std::allocator<Point> >::_S_relocate(Point*, Point*, Point*, std::allocator<Point>&)
+  0.00    468.62     0.00        1     0.00     0.00  std::vector<Point, std::allocator<Point> >::reserve(unsigned long)
+  0.00    468.62     0.00        1     0.00     0.00  std::vector<Point, std::allocator<Point> >::vector()
+  0.00    468.62     0.00        1     0.00     0.00  std::vector<Point, std::allocator<Point> >::~vector()
+  0.00    468.62     0.00        1     0.00     0.00  Point* std::__relocate_a<Point*, Point*, std::allocator<Point> >(Point*, Point*, Point*, std::allocator<Point>&)
+  0.00    468.62     0.00        1     0.00     0.00  std::enable_if<std::__is_bitwise_relocatable<Point, void>::value, Point*>::type std::__relocate_a_1<Point, Point>(Point*, Point*, Point*, std::allocator<Point>&)
+  0.00    468.62     0.00        1     0.00     0.00  unsigned long const& std::min<unsigned long>(unsigned long const&, unsigned long const&)
+  0.00    468.62     0.00        1     0.00     0.00  void std::_Destroy<Point*>(Point*, Point*)
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+Copyright (C) 2012-2025 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 2 byte(s) for 0.00% of 468.62 seconds
+
+index % time    self  children    called     name
+                                                 <spontaneous>
+[1]     97.3    0.00  456.09                 main [1]
+                0.00  456.08       1/1           run_experiment(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<Point, std::allocator<Point> > const&, std::vector<Point, std::allocator<Point> > const&, int) [2]
+                0.00    0.01       1/1           generateRandomPointCloud(int, double, double) [19]
+                0.00    0.00       1/2           std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&) [66]
+                0.00    0.00       1/2           std::__new_allocator<char>::~__new_allocator() [64]
+                0.00    0.00       1/1           std::vector<Point, std::allocator<Point> >::~vector() [99]
+-----------------------------------------------
+                0.00  456.08       1/1           main [1]
+[2]     97.3    0.00  456.08       1         run_experiment(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<Point, std::allocator<Point> > const&, std::vector<Point, std::allocator<Point> > const&, int) [2]
+                0.00  444.94       5/5           hausdorff_distance(std::vector<Point, std::allocator<Point> > const&, std::vector<Point, std::allocator<Point> > const&) [4]
+               11.13    0.00       4/4           std::setw(int) [14]
+                0.00    0.00       5/5           std::common_type<std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::type std::chrono::operator-<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >(std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&, std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&) [55]
+                0.00    0.00       5/5           std::enable_if<std::chrono::__is_duration<std::chrono::duration<long, std::ratio<1l, 1000l> > >::value, std::chrono::duration<long, std::ratio<1l, 1000l> > >::type std::chrono::duration_cast<std::chrono::duration<long, std::ratio<1l, 1000l> >, long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [51]
+                0.00    0.00       5/5           std::chrono::duration<long, std::ratio<1l, 1000l> >::count() const [50]
+                0.00    0.00       2/3           std::vector<Point, std::allocator<Point> >::size() const [59]
+                0.00    0.00       2/2           std::setprecision(int) [68]
+-----------------------------------------------
+               92.60  352.34      10/10          hausdorff_distance(std::vector<Point, std::allocator<Point> > const&, std::vector<Point, std::allocator<Point> > const&) [4]
+[3]     94.9   92.60  352.34      10         directed_hausdorff_distance(std::vector<Point, std::allocator<Point> > const&, std::vector<Point, std::allocator<Point> > const&) [3]
+               67.27   48.74 1756759754/1756759754     bool __gnu_cxx::operator!=<Point const*, std::vector<Point, std::allocator<Point> > >(__gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > > const&, __gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > > const&) [5]
+              108.23    0.00 1755359744/1755359744     euclidean_distance(Point const&, Point const&) [6]
+               62.44    0.00 1756059744/1756059744     __gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >::operator++() [7]
+               35.87    0.00 1756059744/1756059744     __gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >::operator*() const [9]
+                5.94   11.93  700010/700010      std::vector<Point, std::allocator<Point> >::end() const [11]
+                0.01   11.93  700010/700010      std::vector<Point, std::allocator<Point> >::begin() const [13]
+-----------------------------------------------
+                0.00  444.94       5/5           run_experiment(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<Point, std::allocator<Point> > const&, std::vector<Point, std::allocator<Point> > const&, int) [2]
+[4]     94.9    0.00  444.94       5         hausdorff_distance(std::vector<Point, std::allocator<Point> > const&, std::vector<Point, std::allocator<Point> > const&) [4]
+               92.60  352.34      10/10          directed_hausdorff_distance(std::vector<Point, std::allocator<Point> > const&, std::vector<Point, std::allocator<Point> > const&) [3]
+                0.00    0.00       5/5           double const& std::max<double>(double const&, double const&) [57]
+-----------------------------------------------
+               67.27   48.74 1756759754/1756759754     directed_hausdorff_distance(std::vector<Point, std::allocator<Point> > const&, std::vector<Point, std::allocator<Point> > const&) [3]
+[5]     24.8   67.27   48.74 1756759754         bool __gnu_cxx::operator!=<Point const*, std::vector<Point, std::allocator<Point> > >(__gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > > const&, __gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > > const&) [5]
+               48.74    0.00 3513519508/3513519508     __gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >::base() const [8]
+-----------------------------------------------
+              108.23    0.00 1755359744/1755359744     directed_hausdorff_distance(std::vector<Point, std::allocator<Point> > const&, std::vector<Point, std::allocator<Point> > const&) [3]
+[6]     23.1  108.23    0.00 1755359744         euclidean_distance(Point const&, Point const&) [6]
+-----------------------------------------------
+               62.44    0.00 1756059744/1756059744     directed_hausdorff_distance(std::vector<Point, std::allocator<Point> > const&, std::vector<Point, std::allocator<Point> > const&) [3]
+[7]     13.3   62.44    0.00 1756059744         __gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >::operator++() [7]
+-----------------------------------------------
+               48.74    0.00 3513519508/3513519508     bool __gnu_cxx::operator!=<Point const*, std::vector<Point, std::allocator<Point> > >(__gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > > const&, __gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > > const&) [5]
+[8]     10.4   48.74    0.00 3513519508         __gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >::base() const [8]
+-----------------------------------------------
+               35.87    0.00 1756059744/1756059744     directed_hausdorff_distance(std::vector<Point, std::allocator<Point> > const&, std::vector<Point, std::allocator<Point> > const&) [3]
+[9]      7.7   35.87    0.00 1756059744         __gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >::operator*() const [9]
+-----------------------------------------------
+               11.93    0.00  700010/1400020     std::vector<Point, std::allocator<Point> >::begin() const [13]
+               11.93    0.00  700010/1400020     std::vector<Point, std::allocator<Point> >::end() const [11]
+[10]     5.1   23.85    0.00 1400020         __gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >::__normal_iterator(Point const* const&) [10]
+-----------------------------------------------
+                5.94   11.93  700010/700010      directed_hausdorff_distance(std::vector<Point, std::allocator<Point> > const&, std::vector<Point, std::allocator<Point> > const&) [3]
+[11]     3.8    5.94   11.93  700010         std::vector<Point, std::allocator<Point> >::end() const [11]
+               11.93    0.00  700010/1400020     __gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >::__normal_iterator(Point const* const&) [10]
+-----------------------------------------------
+                                                 <spontaneous>
+[12]     2.7   12.54    0.00                 _init [12]
+-----------------------------------------------
+                0.01   11.93  700010/700010      directed_hausdorff_distance(std::vector<Point, std::allocator<Point> > const&, std::vector<Point, std::allocator<Point> > const&) [3]
+[13]     2.5    0.01   11.93  700010         std::vector<Point, std::allocator<Point> >::begin() const [13]
+               11.93    0.00  700010/1400020     __gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >::__normal_iterator(Point const* const&) [10]
+-----------------------------------------------
+               11.13    0.00       4/4           run_experiment(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<Point, std::allocator<Point> > const&, std::vector<Point, std::allocator<Point> > const&, int) [2]
+[14]     2.4   11.13    0.00       4         std::setw(int) [14]
+-----------------------------------------------
+                0.00    0.01  140000/140000      generateRandomPointCloud(int, double, double) [19]
+[15]     0.0    0.00    0.01  140000         double std::uniform_real_distribution<double>::operator()<std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul> >(std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>&) [15]
+                0.00    0.01  140000/140000      double std::uniform_real_distribution<double>::operator()<std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul> >(std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>&, std::uniform_real_distribution<double>::param_type const&) [16]
+-----------------------------------------------
+                0.00    0.01  140000/140000      double std::uniform_real_distribution<double>::operator()<std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul> >(std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>&) [15]
+[16]     0.0    0.00    0.01  140000         double std::uniform_real_distribution<double>::operator()<std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul> >(std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>&, std::uniform_real_distribution<double>::param_type const&) [16]
+                0.00    0.01  140000/140000      std::__detail::_Adaptor<std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>, double>::operator()() [17]
+                0.00    0.00  280000/280000      std::uniform_real_distribution<double>::param_type::a() const [26]
+                0.00    0.00  140000/140000      std::__detail::_Adaptor<std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>, double>::_Adaptor(std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>&) [33]
+                0.00    0.00  140000/140000      std::uniform_real_distribution<double>::param_type::b() const [32]
+-----------------------------------------------
+                0.00    0.01  140000/140000      double std::uniform_real_distribution<double>::operator()<std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul> >(std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>&, std::uniform_real_distribution<double>::param_type const&) [16]
+[17]     0.0    0.00    0.01  140000         std::__detail::_Adaptor<std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>, double>::operator()() [17]
+                0.01    0.00  140000/140000      double std::generate_canonical<double, 53ul, std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul> >(std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>&) [18]
+-----------------------------------------------
+                0.01    0.00  140000/140000      std::__detail::_Adaptor<std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>, double>::operator()() [17]
+[18]     0.0    0.01    0.00  140000         double std::generate_canonical<double, 53ul, std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul> >(std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>&) [18]
+                0.00    0.00  280000/280000      std::log(long double) [29]
+                0.00    0.00  280000/280000      std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>::min() [27]
+                0.00    0.00  280000/280000      std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>::operator()() [28]
+                0.00    0.00  140000/140000      unsigned long const& std::max<unsigned long>(unsigned long const&, unsigned long const&) [34]
+-----------------------------------------------
+                0.00    0.01       1/1           main [1]
+[19]     0.0    0.00    0.01       1         generateRandomPointCloud(int, double, double) [19]
+                0.00    0.01  140000/140000      double std::uniform_real_distribution<double>::operator()<std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul> >(std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>&) [15]
+                0.00    0.00   70000/70000       std::vector<Point, std::allocator<Point> >::push_back(Point&&) [40]
+                0.00    0.00       1/1           std::random_device::random_device() [85]
+                0.00    0.00       1/1           std::random_device::operator()() [87]
+                0.00    0.00       1/1           std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>::mersenne_twister_engine(unsigned long) [92]
+                0.00    0.00       1/1           std::uniform_real_distribution<double>::uniform_real_distribution(double, double) [94]
+                0.00    0.00       1/1           std::vector<Point, std::allocator<Point> >::vector() [98]
+                0.00    0.00       1/1           std::vector<Point, std::allocator<Point> >::reserve(unsigned long) [97]
+                0.00    0.00       1/1           std::random_device::~random_device() [86]
+-----------------------------------------------
+                0.00    0.00  280000/280000      double std::uniform_real_distribution<double>::operator()<std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul> >(std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>&, std::uniform_real_distribution<double>::param_type const&) [16]
+[26]     0.0    0.00    0.00  280000         std::uniform_real_distribution<double>::param_type::a() const [26]
+-----------------------------------------------
+                0.00    0.00  280000/280000      double std::generate_canonical<double, 53ul, std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul> >(std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>&) [18]
+[27]     0.0    0.00    0.00  280000         std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>::min() [27]
+-----------------------------------------------
+                0.00    0.00  280000/280000      double std::generate_canonical<double, 53ul, std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul> >(std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>&) [18]
+[28]     0.0    0.00    0.00  280000         std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>::operator()() [28]
+                0.00    0.00     449/449         std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>::_M_gen_rand() [47]
+-----------------------------------------------
+                0.00    0.00  280000/280000      double std::generate_canonical<double, 53ul, std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul> >(std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>&) [18]
+[29]     0.0    0.00    0.00  280000         std::log(long double) [29]
+-----------------------------------------------
+                0.00    0.00  210000/210000      Point& std::vector<Point, std::allocator<Point> >::emplace_back<Point>(Point&&) [37]
+[30]     0.0    0.00    0.00  210000         Point&& std::forward<Point>(std::remove_reference<Point>::type&) [30]
+-----------------------------------------------
+                0.00    0.00   70000/140000      std::vector<Point, std::allocator<Point> >::end() [38]
+                0.00    0.00   70000/140000      __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::operator-(long) const [36]
+[31]     0.0    0.00    0.00  140000         __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::__normal_iterator(Point* const&) [31]
+-----------------------------------------------
+                0.00    0.00  140000/140000      double std::uniform_real_distribution<double>::operator()<std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul> >(std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>&, std::uniform_real_distribution<double>::param_type const&) [16]
+[32]     0.0    0.00    0.00  140000         std::uniform_real_distribution<double>::param_type::b() const [32]
+-----------------------------------------------
+                0.00    0.00  140000/140000      double std::uniform_real_distribution<double>::operator()<std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul> >(std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>&, std::uniform_real_distribution<double>::param_type const&) [16]
+[33]     0.0    0.00    0.00  140000         std::__detail::_Adaptor<std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>, double>::_Adaptor(std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>&) [33]
+-----------------------------------------------
+                0.00    0.00  140000/140000      double std::generate_canonical<double, 53ul, std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul> >(std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>&) [18]
+[34]     0.0    0.00    0.00  140000         unsigned long const& std::max<unsigned long>(unsigned long const&, unsigned long const&) [34]
+-----------------------------------------------
+                0.00    0.00   70000/70000       std::vector<Point, std::allocator<Point> >::back() [39]
+[35]     0.0    0.00    0.00   70000         __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::operator*() const [35]
+-----------------------------------------------
+                0.00    0.00   70000/70000       std::vector<Point, std::allocator<Point> >::back() [39]
+[36]     0.0    0.00    0.00   70000         __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::operator-(long) const [36]
+                0.00    0.00   70000/140000      __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::__normal_iterator(Point* const&) [31]
+-----------------------------------------------
+                0.00    0.00   70000/70000       std::vector<Point, std::allocator<Point> >::push_back(Point&&) [40]
+[37]     0.0    0.00    0.00   70000         Point& std::vector<Point, std::allocator<Point> >::emplace_back<Point>(Point&&) [37]
+                0.00    0.00  210000/210000      Point&& std::forward<Point>(std::remove_reference<Point>::type&) [30]
+                0.00    0.00   70000/70000       operator new(unsigned long, void*) [42]
+                0.00    0.00   70000/70000       std::vector<Point, std::allocator<Point> >::back() [39]
+-----------------------------------------------
+                0.00    0.00   70000/70000       std::vector<Point, std::allocator<Point> >::back() [39]
+[38]     0.0    0.00    0.00   70000         std::vector<Point, std::allocator<Point> >::end() [38]
+                0.00    0.00   70000/140000      __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::__normal_iterator(Point* const&) [31]
+-----------------------------------------------
+                0.00    0.00   70000/70000       Point& std::vector<Point, std::allocator<Point> >::emplace_back<Point>(Point&&) [37]
+[39]     0.0    0.00    0.00   70000         std::vector<Point, std::allocator<Point> >::back() [39]
+                0.00    0.00   70000/70000       std::vector<Point, std::allocator<Point> >::end() [38]
+                0.00    0.00   70000/70000       __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::operator-(long) const [36]
+                0.00    0.00   70000/70000       __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::operator*() const [35]
+-----------------------------------------------
+                0.00    0.00   70000/70000       generateRandomPointCloud(int, double, double) [19]
+[40]     0.0    0.00    0.00   70000         std::vector<Point, std::allocator<Point> >::push_back(Point&&) [40]
+                0.00    0.00   70000/70000       std::remove_reference<Point&>::type&& std::move<Point&>(Point&) [41]
+                0.00    0.00   70000/70000       Point& std::vector<Point, std::allocator<Point> >::emplace_back<Point>(Point&&) [37]
+-----------------------------------------------
+                0.00    0.00   70000/70000       std::vector<Point, std::allocator<Point> >::push_back(Point&&) [40]
+[41]     0.0    0.00    0.00   70000         std::remove_reference<Point&>::type&& std::move<Point&>(Point&) [41]
+-----------------------------------------------
+                0.00    0.00   70000/70000       Point& std::vector<Point, std::allocator<Point> >::emplace_back<Point>(Point&&) [37]
+[42]     0.0    0.00    0.00   70000         operator new(unsigned long, void*) [42]
+-----------------------------------------------
+                0.00    0.00     624/624         unsigned long std::__detail::__mod<unsigned long, 4294967296ul, 1ul, 0ul>(unsigned long) [44]
+[43]     0.0    0.00    0.00     624         std::__detail::_Mod<unsigned long, 4294967296ul, 1ul, 0ul, true, true>::__calc(unsigned long) [43]
+-----------------------------------------------
+                0.00    0.00     624/624         std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>::seed(unsigned long) [91]
+[44]     0.0    0.00    0.00     624         unsigned long std::__detail::__mod<unsigned long, 4294967296ul, 1ul, 0ul>(unsigned long) [44]
+                0.00    0.00     624/624         std::__detail::_Mod<unsigned long, 4294967296ul, 1ul, 0ul, true, true>::__calc(unsigned long) [43]
+-----------------------------------------------
+                0.00    0.00     623/623         unsigned long std::__detail::__mod<unsigned long, 624ul, 1ul, 0ul>(unsigned long) [46]
+[45]     0.0    0.00    0.00     623         std::__detail::_Mod<unsigned long, 624ul, 1ul, 0ul, true, true>::__calc(unsigned long) [45]
+-----------------------------------------------
+                0.00    0.00     623/623         std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>::seed(unsigned long) [91]
+[46]     0.0    0.00    0.00     623         unsigned long std::__detail::__mod<unsigned long, 624ul, 1ul, 0ul>(unsigned long) [46]
+                0.00    0.00     623/623         std::__detail::_Mod<unsigned long, 624ul, 1ul, 0ul, true, true>::__calc(unsigned long) [45]
+-----------------------------------------------
+                0.00    0.00     449/449         std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>::operator()() [28]
+[47]     0.0    0.00    0.00     449         std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>::_M_gen_rand() [47]
+-----------------------------------------------
+                0.00    0.00       5/15          std::chrono::duration<long, std::ratio<1l, 1000l> > std::chrono::__duration_cast_impl<std::chrono::duration<long, std::ratio<1l, 1000l> >, std::ratio<1l, 1000000l>, long, true, false>::__cast<long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [52]
+                0.00    0.00      10/15          std::common_type<std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::type std::chrono::operator-<long, std::ratio<1l, 1000000000l>, long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&, std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [56]
+[48]     0.0    0.00    0.00      15         std::chrono::duration<long, std::ratio<1l, 1000000000l> >::count() const [48]
+-----------------------------------------------
+                0.00    0.00      10/10          std::common_type<std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::type std::chrono::operator-<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >(std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&, std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&) [55]
+[49]     0.0    0.00    0.00      10         std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::time_since_epoch() const [49]
+-----------------------------------------------
+                0.00    0.00       5/5           run_experiment(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<Point, std::allocator<Point> > const&, std::vector<Point, std::allocator<Point> > const&, int) [2]
+[50]     0.0    0.00    0.00       5         std::chrono::duration<long, std::ratio<1l, 1000l> >::count() const [50]
+-----------------------------------------------
+                0.00    0.00       5/5           run_experiment(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<Point, std::allocator<Point> > const&, std::vector<Point, std::allocator<Point> > const&, int) [2]
+[51]     0.0    0.00    0.00       5         std::enable_if<std::chrono::__is_duration<std::chrono::duration<long, std::ratio<1l, 1000l> > >::value, std::chrono::duration<long, std::ratio<1l, 1000l> > >::type std::chrono::duration_cast<std::chrono::duration<long, std::ratio<1l, 1000l> >, long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [51]
+                0.00    0.00       5/5           std::chrono::duration<long, std::ratio<1l, 1000l> > std::chrono::__duration_cast_impl<std::chrono::duration<long, std::ratio<1l, 1000l> >, std::ratio<1l, 1000000l>, long, true, false>::__cast<long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [52]
+-----------------------------------------------
+                0.00    0.00       5/5           std::enable_if<std::chrono::__is_duration<std::chrono::duration<long, std::ratio<1l, 1000l> > >::value, std::chrono::duration<long, std::ratio<1l, 1000l> > >::type std::chrono::duration_cast<std::chrono::duration<long, std::ratio<1l, 1000l> >, long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [51]
+[52]     0.0    0.00    0.00       5         std::chrono::duration<long, std::ratio<1l, 1000l> > std::chrono::__duration_cast_impl<std::chrono::duration<long, std::ratio<1l, 1000l> >, std::ratio<1l, 1000000l>, long, true, false>::__cast<long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [52]
+                0.00    0.00       5/15          std::chrono::duration<long, std::ratio<1l, 1000000000l> >::count() const [48]
+                0.00    0.00       5/5           std::chrono::duration<long, std::ratio<1l, 1000l> >::duration<long, void>(long const&) [54]
+-----------------------------------------------
+                0.00    0.00       5/5           std::common_type<std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::type std::chrono::operator-<long, std::ratio<1l, 1000000000l>, long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&, std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [56]
+[53]     0.0    0.00    0.00       5         std::chrono::duration<long, std::ratio<1l, 1000000000l> >::duration<long, void>(long const&) [53]
+-----------------------------------------------
+                0.00    0.00       5/5           std::chrono::duration<long, std::ratio<1l, 1000l> > std::chrono::__duration_cast_impl<std::chrono::duration<long, std::ratio<1l, 1000l> >, std::ratio<1l, 1000000l>, long, true, false>::__cast<long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [52]
+[54]     0.0    0.00    0.00       5         std::chrono::duration<long, std::ratio<1l, 1000l> >::duration<long, void>(long const&) [54]
+-----------------------------------------------
+                0.00    0.00       5/5           run_experiment(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<Point, std::allocator<Point> > const&, std::vector<Point, std::allocator<Point> > const&, int) [2]
+[55]     0.0    0.00    0.00       5         std::common_type<std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::type std::chrono::operator-<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >(std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&, std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&) [55]
+                0.00    0.00      10/10          std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::time_since_epoch() const [49]
+                0.00    0.00       5/5           std::common_type<std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::type std::chrono::operator-<long, std::ratio<1l, 1000000000l>, long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&, std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [56]
+-----------------------------------------------
+                0.00    0.00       5/5           std::common_type<std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::type std::chrono::operator-<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >(std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&, std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&) [55]
+[56]     0.0    0.00    0.00       5         std::common_type<std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::type std::chrono::operator-<long, std::ratio<1l, 1000000000l>, long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&, std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [56]
+                0.00    0.00      10/15          std::chrono::duration<long, std::ratio<1l, 1000000000l> >::count() const [48]
+                0.00    0.00       5/5           std::chrono::duration<long, std::ratio<1l, 1000000000l> >::duration<long, void>(long const&) [53]
+-----------------------------------------------
+                0.00    0.00       5/5           hausdorff_distance(std::vector<Point, std::allocator<Point> > const&, std::vector<Point, std::allocator<Point> > const&) [4]
+[57]     0.0    0.00    0.00       5         double const& std::max<double>(double const&, double const&) [57]
+-----------------------------------------------
+                0.00    0.00       2/4           std::operator&=(std::_Ios_Fmtflags&, std::_Ios_Fmtflags) [69]
+                0.00    0.00       2/4           std::ios_base::setf(std::_Ios_Fmtflags, std::_Ios_Fmtflags) [67]
+[58]     0.0    0.00    0.00       4         std::operator&(std::_Ios_Fmtflags, std::_Ios_Fmtflags) [58]
+-----------------------------------------------
+                0.00    0.00       1/3           std::vector<Point, std::allocator<Point> >::reserve(unsigned long) [97]
+                0.00    0.00       2/3           run_experiment(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<Point, std::allocator<Point> > const&, std::vector<Point, std::allocator<Point> > const&, int) [2]
+[59]     0.0    0.00    0.00       3         std::vector<Point, std::allocator<Point> >::size() const [59]
+-----------------------------------------------
+                0.00    0.00       3/3           Point* std::__relocate_a<Point*, Point*, std::allocator<Point> >(Point*, Point*, Point*, std::allocator<Point>&) [100]
+[60]     0.0    0.00    0.00       3         Point* std::__niter_base<Point*>(Point*) [60]
+-----------------------------------------------
+                0.00    0.00       2/2           std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&) [66]
+[61]     0.0    0.00    0.00       2         std::char_traits<char>::length(char const*) [61]
+-----------------------------------------------
+                0.00    0.00       1/2           std::_Vector_base<Point, std::allocator<Point> >::~_Vector_base() [84]
+                0.00    0.00       1/2           std::vector<Point, std::allocator<Point> >::reserve(unsigned long) [97]
+[62]     0.0    0.00    0.00       2         std::_Vector_base<Point, std::allocator<Point> >::_M_deallocate(Point*, unsigned long) [62]
+                0.00    0.00       1/1           std::__new_allocator<Point>::deallocate(Point*, unsigned long) [88]
+-----------------------------------------------
+                0.00    0.00       1/2           std::vector<Point, std::allocator<Point> >::~vector() [99]
+                0.00    0.00       1/2           std::vector<Point, std::allocator<Point> >::reserve(unsigned long) [97]
+[63]     0.0    0.00    0.00       2         std::_Vector_base<Point, std::allocator<Point> >::_M_get_Tp_allocator() [63]
+-----------------------------------------------
+                0.00    0.00       1/2           main [1]
+                0.00    0.00       1/2           std::random_device::random_device() [85]
+[64]     0.0    0.00    0.00       2         std::__new_allocator<char>::~__new_allocator() [64]
+-----------------------------------------------
+                0.00    0.00       2/2           std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&) [66]
+[65]     0.0    0.00    0.00       2         void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag) [65]
+                0.00    0.00       2/2           std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag)::_Guard::_Guard(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) [73]
+                0.00    0.00       2/2           std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag)::_Guard::~_Guard() [74]
+-----------------------------------------------
+                0.00    0.00       1/2           main [1]
+                0.00    0.00       1/2           std::random_device::random_device() [85]
+[66]     0.0    0.00    0.00       2         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&) [66]
+                0.00    0.00       2/2           std::char_traits<char>::length(char const*) [61]
+                0.00    0.00       2/2           void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag) [65]
+-----------------------------------------------
+                0.00    0.00       1/2           std::left(std::ios_base&) [113]
+                0.00    0.00       1/2           std::fixed(std::ios_base&) [114]
+[67]     0.0    0.00    0.00       2         std::ios_base::setf(std::_Ios_Fmtflags, std::_Ios_Fmtflags) [67]
+                0.00    0.00       2/2           std::operator~(std::_Ios_Fmtflags) [70]
+                0.00    0.00       2/2           std::operator&=(std::_Ios_Fmtflags&, std::_Ios_Fmtflags) [69]
+                0.00    0.00       2/4           std::operator&(std::_Ios_Fmtflags, std::_Ios_Fmtflags) [58]
+                0.00    0.00       2/2           std::operator|=(std::_Ios_Fmtflags&, std::_Ios_Fmtflags) [71]
+-----------------------------------------------
+                0.00    0.00       2/2           run_experiment(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<Point, std::allocator<Point> > const&, std::vector<Point, std::allocator<Point> > const&, int) [2]
+[68]     0.0    0.00    0.00       2         std::setprecision(int) [68]
+-----------------------------------------------
+                0.00    0.00       2/2           std::ios_base::setf(std::_Ios_Fmtflags, std::_Ios_Fmtflags) [67]
+[69]     0.0    0.00    0.00       2         std::operator&=(std::_Ios_Fmtflags&, std::_Ios_Fmtflags) [69]
+                0.00    0.00       2/4           std::operator&(std::_Ios_Fmtflags, std::_Ios_Fmtflags) [58]
+-----------------------------------------------
+                0.00    0.00       2/2           std::ios_base::setf(std::_Ios_Fmtflags, std::_Ios_Fmtflags) [67]
+[70]     0.0    0.00    0.00       2         std::operator~(std::_Ios_Fmtflags) [70]
+-----------------------------------------------
+                0.00    0.00       2/2           std::ios_base::setf(std::_Ios_Fmtflags, std::_Ios_Fmtflags) [67]
+[71]     0.0    0.00    0.00       2         std::operator|=(std::_Ios_Fmtflags&, std::_Ios_Fmtflags) [71]
+                0.00    0.00       2/2           std::operator|(std::_Ios_Fmtflags, std::_Ios_Fmtflags) [72]
+-----------------------------------------------
+                0.00    0.00       2/2           std::operator|=(std::_Ios_Fmtflags&, std::_Ios_Fmtflags) [71]
+[72]     0.0    0.00    0.00       2         std::operator|(std::_Ios_Fmtflags, std::_Ios_Fmtflags) [72]
+-----------------------------------------------
+                0.00    0.00       2/2           void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag) [65]
+[73]     0.0    0.00    0.00       2         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag)::_Guard::_Guard(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) [73]
+-----------------------------------------------
+                0.00    0.00       2/2           void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag) [65]
+[74]     0.0    0.00    0.00       2         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag)::_Guard::~_Guard() [74]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<Point, std::allocator<Point> >::max_size() const [77]
+[75]     0.0    0.00    0.00       1         std::_Vector_base<Point, std::allocator<Point> >::_M_get_Tp_allocator() const [75]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<Point, std::allocator<Point> >::reserve(unsigned long) [97]
+[76]     0.0    0.00    0.00       1         std::vector<Point, std::allocator<Point> >::capacity() const [76]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<Point, std::allocator<Point> >::reserve(unsigned long) [97]
+[77]     0.0    0.00    0.00       1         std::vector<Point, std::allocator<Point> >::max_size() const [77]
+                0.00    0.00       1/1           std::vector<Point, std::allocator<Point> >::_S_max_size(std::allocator<Point> const&) [95]
+                0.00    0.00       1/1           std::_Vector_base<Point, std::allocator<Point> >::_M_get_Tp_allocator() const [75]
+-----------------------------------------------
+                0.00    0.00       1/1           void std::_Destroy<Point*>(Point*, Point*) [103]
+[78]     0.0    0.00    0.00       1         void std::_Destroy_aux<true>::__destroy<Point*>(Point*, Point*) [78]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<Point, std::allocator<Point> >::reserve(unsigned long) [97]
+[79]     0.0    0.00    0.00       1         std::_Vector_base<Point, std::allocator<Point> >::_M_allocate(unsigned long) [79]
+                0.00    0.00       1/1           std::__new_allocator<Point>::allocate(unsigned long, void const*) [89]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Vector_base<Point, std::allocator<Point> >::_Vector_base() [83]
+[80]     0.0    0.00    0.00       1         std::_Vector_base<Point, std::allocator<Point> >::_Vector_impl::_Vector_impl() [80]
+                0.00    0.00       1/1           std::_Vector_base<Point, std::allocator<Point> >::_Vector_impl_data::_Vector_impl_data() [82]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Vector_base<Point, std::allocator<Point> >::~_Vector_base() [84]
+[81]     0.0    0.00    0.00       1         std::_Vector_base<Point, std::allocator<Point> >::_Vector_impl::~_Vector_impl() [81]
+                0.00    0.00       1/1           std::__new_allocator<Point>::~__new_allocator() [90]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Vector_base<Point, std::allocator<Point> >::_Vector_impl::_Vector_impl() [80]
+[82]     0.0    0.00    0.00       1         std::_Vector_base<Point, std::allocator<Point> >::_Vector_impl_data::_Vector_impl_data() [82]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<Point, std::allocator<Point> >::vector() [98]
+[83]     0.0    0.00    0.00       1         std::_Vector_base<Point, std::allocator<Point> >::_Vector_base() [83]
+                0.00    0.00       1/1           std::_Vector_base<Point, std::allocator<Point> >::_Vector_impl::_Vector_impl() [80]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<Point, std::allocator<Point> >::~vector() [99]
+[84]     0.0    0.00    0.00       1         std::_Vector_base<Point, std::allocator<Point> >::~_Vector_base() [84]
+                0.00    0.00       1/2           std::_Vector_base<Point, std::allocator<Point> >::_M_deallocate(Point*, unsigned long) [62]
+                0.00    0.00       1/1           std::_Vector_base<Point, std::allocator<Point> >::_Vector_impl::~_Vector_impl() [81]
+-----------------------------------------------
+                0.00    0.00       1/1           generateRandomPointCloud(int, double, double) [19]
+[85]     0.0    0.00    0.00       1         std::random_device::random_device() [85]
+                0.00    0.00       1/2           std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&) [66]
+                0.00    0.00       1/2           std::__new_allocator<char>::~__new_allocator() [64]
+-----------------------------------------------
+                0.00    0.00       1/1           generateRandomPointCloud(int, double, double) [19]
+[86]     0.0    0.00    0.00       1         std::random_device::~random_device() [86]
+-----------------------------------------------
+                0.00    0.00       1/1           generateRandomPointCloud(int, double, double) [19]
+[87]     0.0    0.00    0.00       1         std::random_device::operator()() [87]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Vector_base<Point, std::allocator<Point> >::_M_deallocate(Point*, unsigned long) [62]
+[88]     0.0    0.00    0.00       1         std::__new_allocator<Point>::deallocate(Point*, unsigned long) [88]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Vector_base<Point, std::allocator<Point> >::_M_allocate(unsigned long) [79]
+[89]     0.0    0.00    0.00       1         std::__new_allocator<Point>::allocate(unsigned long, void const*) [89]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Vector_base<Point, std::allocator<Point> >::_Vector_impl::~_Vector_impl() [81]
+[90]     0.0    0.00    0.00       1         std::__new_allocator<Point>::~__new_allocator() [90]
+-----------------------------------------------
+                0.00    0.00       1/1           std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>::mersenne_twister_engine(unsigned long) [92]
+[91]     0.0    0.00    0.00       1         std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>::seed(unsigned long) [91]
+                0.00    0.00     624/624         unsigned long std::__detail::__mod<unsigned long, 4294967296ul, 1ul, 0ul>(unsigned long) [44]
+                0.00    0.00     623/623         unsigned long std::__detail::__mod<unsigned long, 624ul, 1ul, 0ul>(unsigned long) [46]
+-----------------------------------------------
+                0.00    0.00       1/1           generateRandomPointCloud(int, double, double) [19]
+[92]     0.0    0.00    0.00       1         std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>::mersenne_twister_engine(unsigned long) [92]
+                0.00    0.00       1/1           std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>::seed(unsigned long) [91]
+-----------------------------------------------
+                0.00    0.00       1/1           std::uniform_real_distribution<double>::uniform_real_distribution(double, double) [94]
+[93]     0.0    0.00    0.00       1         std::uniform_real_distribution<double>::param_type::param_type(double, double) [93]
+-----------------------------------------------
+                0.00    0.00       1/1           generateRandomPointCloud(int, double, double) [19]
+[94]     0.0    0.00    0.00       1         std::uniform_real_distribution<double>::uniform_real_distribution(double, double) [94]
+                0.00    0.00       1/1           std::uniform_real_distribution<double>::param_type::param_type(double, double) [93]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<Point, std::allocator<Point> >::max_size() const [77]
+[95]     0.0    0.00    0.00       1         std::vector<Point, std::allocator<Point> >::_S_max_size(std::allocator<Point> const&) [95]
+                0.00    0.00       1/1           unsigned long const& std::min<unsigned long>(unsigned long const&, unsigned long const&) [102]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<Point, std::allocator<Point> >::reserve(unsigned long) [97]
+[96]     0.0    0.00    0.00       1         std::vector<Point, std::allocator<Point> >::_S_relocate(Point*, Point*, Point*, std::allocator<Point>&) [96]
+                0.00    0.00       1/1           Point* std::__relocate_a<Point*, Point*, std::allocator<Point> >(Point*, Point*, Point*, std::allocator<Point>&) [100]
+-----------------------------------------------
+                0.00    0.00       1/1           generateRandomPointCloud(int, double, double) [19]
+[97]     0.0    0.00    0.00       1         std::vector<Point, std::allocator<Point> >::reserve(unsigned long) [97]
+                0.00    0.00       1/1           std::vector<Point, std::allocator<Point> >::max_size() const [77]
+                0.00    0.00       1/1           std::vector<Point, std::allocator<Point> >::capacity() const [76]
+                0.00    0.00       1/3           std::vector<Point, std::allocator<Point> >::size() const [59]
+                0.00    0.00       1/1           std::_Vector_base<Point, std::allocator<Point> >::_M_allocate(unsigned long) [79]
+                0.00    0.00       1/2           std::_Vector_base<Point, std::allocator<Point> >::_M_get_Tp_allocator() [63]
+                0.00    0.00       1/1           std::vector<Point, std::allocator<Point> >::_S_relocate(Point*, Point*, Point*, std::allocator<Point>&) [96]
+                0.00    0.00       1/2           std::_Vector_base<Point, std::allocator<Point> >::_M_deallocate(Point*, unsigned long) [62]
+-----------------------------------------------
+                0.00    0.00       1/1           generateRandomPointCloud(int, double, double) [19]
+[98]     0.0    0.00    0.00       1         std::vector<Point, std::allocator<Point> >::vector() [98]
+                0.00    0.00       1/1           std::_Vector_base<Point, std::allocator<Point> >::_Vector_base() [83]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[99]     0.0    0.00    0.00       1         std::vector<Point, std::allocator<Point> >::~vector() [99]
+                0.00    0.00       1/2           std::_Vector_base<Point, std::allocator<Point> >::_M_get_Tp_allocator() [63]
+                0.00    0.00       1/1           void std::_Destroy<Point*>(Point*, Point*) [103]
+                0.00    0.00       1/1           std::_Vector_base<Point, std::allocator<Point> >::~_Vector_base() [84]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<Point, std::allocator<Point> >::_S_relocate(Point*, Point*, Point*, std::allocator<Point>&) [96]
+[100]    0.0    0.00    0.00       1         Point* std::__relocate_a<Point*, Point*, std::allocator<Point> >(Point*, Point*, Point*, std::allocator<Point>&) [100]
+                0.00    0.00       3/3           Point* std::__niter_base<Point*>(Point*) [60]
+                0.00    0.00       1/1           std::enable_if<std::__is_bitwise_relocatable<Point, void>::value, Point*>::type std::__relocate_a_1<Point, Point>(Point*, Point*, Point*, std::allocator<Point>&) [101]
+-----------------------------------------------
+                0.00    0.00       1/1           Point* std::__relocate_a<Point*, Point*, std::allocator<Point> >(Point*, Point*, Point*, std::allocator<Point>&) [100]
+[101]    0.0    0.00    0.00       1         std::enable_if<std::__is_bitwise_relocatable<Point, void>::value, Point*>::type std::__relocate_a_1<Point, Point>(Point*, Point*, Point*, std::allocator<Point>&) [101]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<Point, std::allocator<Point> >::_S_max_size(std::allocator<Point> const&) [95]
+[102]    0.0    0.00    0.00       1         unsigned long const& std::min<unsigned long>(unsigned long const&, unsigned long const&) [102]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<Point, std::allocator<Point> >::~vector() [99]
+[103]    0.0    0.00    0.00       1         void std::_Destroy<Point*>(Point*, Point*) [103]
+                0.00    0.00       1/1           void std::_Destroy_aux<true>::__destroy<Point*>(Point*, Point*) [78]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function is in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+Copyright (C) 2012-2025 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+Index by function name
+
+   [2] run_experiment(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<Point, std::allocator<Point> > const&, std::vector<Point, std::allocator<Point> > const&, int) [83] std::_Vector_base<Point, std::allocator<Point> >::_Vector_base() [99] std::vector<Point, std::allocator<Point> >::~vector()
+   [6] euclidean_distance(Point const&, Point const&) [84] std::_Vector_base<Point, std::allocator<Point> >::~_Vector_base() [65] void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag)
+   [4] hausdorff_distance(std::vector<Point, std::allocator<Point> > const&, std::vector<Point, std::allocator<Point> > const&) [85] std::random_device::random_device() [66] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&)
+  [19] generateRandomPointCloud(int, double, double) [86] std::random_device::~random_device() [43] std::__detail::_Mod<unsigned long, 4294967296ul, 1ul, 0ul, true, true>::__calc(unsigned long)
+   [3] directed_hausdorff_distance(std::vector<Point, std::allocator<Point> > const&, std::vector<Point, std::allocator<Point> > const&) [87] std::random_device::operator()() [45] std::__detail::_Mod<unsigned long, 624ul, 1ul, 0ul, true, true>::__calc(unsigned long)
+  [31] __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::__normal_iterator(Point* const&) [88] std::__new_allocator<Point>::deallocate(Point*, unsigned long) [44] unsigned long std::__detail::__mod<unsigned long, 4294967296ul, 1ul, 0ul>(unsigned long)
+  [10] __gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >::__normal_iterator(Point const* const&) [89] std::__new_allocator<Point>::allocate(unsigned long, void const*) [46] unsigned long std::__detail::__mod<unsigned long, 624ul, 1ul, 0ul>(unsigned long)
+   [7] __gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >::operator++() [90] std::__new_allocator<Point>::~__new_allocator() [33] std::__detail::_Adaptor<std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>, double>::_Adaptor(std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>&)
+   [5] bool __gnu_cxx::operator!=<Point const*, std::vector<Point, std::allocator<Point> > >(__gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > > const&, __gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > > const&) [64] std::__new_allocator<char>::~__new_allocator() [17] std::__detail::_Adaptor<std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>, double>::operator()()
+  [35] __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::operator*() const [47] std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>::_M_gen_rand() [67] std::ios_base::setf(std::_Ios_Fmtflags, std::_Ios_Fmtflags)
+  [36] __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::operator-(long) const [27] std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>::min() [60] Point* std::__niter_base<Point*>(Point*)
+   [8] __gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >::base() const [91] std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>::seed(unsigned long) [100] Point* std::__relocate_a<Point*, Point*, std::allocator<Point> >(Point*, Point*, Point*, std::allocator<Point>&)
+   [9] __gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >::operator*() const [92] std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>::mersenne_twister_engine(unsigned long) [68] std::setprecision(int)
+  [75] std::_Vector_base<Point, std::allocator<Point> >::_M_get_Tp_allocator() const [28] std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>::operator()() [101] std::enable_if<std::__is_bitwise_relocatable<Point, void>::value, Point*>::type std::__relocate_a_1<Point, Point>(Point*, Point*, Point*, std::allocator<Point>&)
+  [26] std::uniform_real_distribution<double>::param_type::a() const [93] std::uniform_real_distribution<double>::param_type::param_type(double, double) [18] double std::generate_canonical<double, 53ul, std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul> >(std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>&)
+  [32] std::uniform_real_distribution<double>::param_type::b() const [94] std::uniform_real_distribution<double>::uniform_real_distribution(double, double) [29] std::log(long double)
+  [49] std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::time_since_epoch() const [15] double std::uniform_real_distribution<double>::operator()<std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul> >(std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>&) [57] double const& std::max<double>(double const&, double const&)
+  [48] std::chrono::duration<long, std::ratio<1l, 1000000000l> >::count() const [16] double std::uniform_real_distribution<double>::operator()<std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul> >(std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>&, std::uniform_real_distribution<double>::param_type const&) [34] unsigned long const& std::max<unsigned long>(unsigned long const&, unsigned long const&)
+  [50] std::chrono::duration<long, std::ratio<1l, 1000l> >::count() const [51] std::enable_if<std::chrono::__is_duration<std::chrono::duration<long, std::ratio<1l, 1000l> > >::value, std::chrono::duration<long, std::ratio<1l, 1000l> > >::type std::chrono::duration_cast<std::chrono::duration<long, std::ratio<1l, 1000l> >, long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [102] unsigned long const& std::min<unsigned long>(unsigned long const&, unsigned long const&)
+  [11] std::vector<Point, std::allocator<Point> >::end() const [52] std::chrono::duration<long, std::ratio<1l, 1000l> > std::chrono::__duration_cast_impl<std::chrono::duration<long, std::ratio<1l, 1000l> >, std::ratio<1l, 1000000l>, long, true, false>::__cast<long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [41] std::remove_reference<Point&>::type&& std::move<Point&>(Point&)
+  [59] std::vector<Point, std::allocator<Point> >::size() const [53] std::chrono::duration<long, std::ratio<1l, 1000000000l> >::duration<long, void>(long const&) [14] std::setw(int)
+  [13] std::vector<Point, std::allocator<Point> >::begin() const [54] std::chrono::duration<long, std::ratio<1l, 1000l> >::duration<long, void>(long const&) [30] Point&& std::forward<Point>(std::remove_reference<Point>::type&)
+  [76] std::vector<Point, std::allocator<Point> >::capacity() const [55] std::common_type<std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::type std::chrono::operator-<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >(std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&, std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&) [103] void std::_Destroy<Point*>(Point*, Point*)
+  [77] std::vector<Point, std::allocator<Point> >::max_size() const [56] std::common_type<std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::type std::chrono::operator-<long, std::ratio<1l, 1000000000l>, long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&, std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [69] std::operator&=(std::_Ios_Fmtflags&, std::_Ios_Fmtflags)
+  [61] std::char_traits<char>::length(char const*) [95] std::vector<Point, std::allocator<Point> >::_S_max_size(std::allocator<Point> const&) [58] std::operator&(std::_Ios_Fmtflags, std::_Ios_Fmtflags)
+  [78] void std::_Destroy_aux<true>::__destroy<Point*>(Point*, Point*) [96] std::vector<Point, std::allocator<Point> >::_S_relocate(Point*, Point*, Point*, std::allocator<Point>&) [70] std::operator~(std::_Ios_Fmtflags)
+  [79] std::_Vector_base<Point, std::allocator<Point> >::_M_allocate(unsigned long) [37] Point& std::vector<Point, std::allocator<Point> >::emplace_back<Point>(Point&&) [71] std::operator|=(std::_Ios_Fmtflags&, std::_Ios_Fmtflags)
+  [80] std::_Vector_base<Point, std::allocator<Point> >::_Vector_impl::_Vector_impl() [38] std::vector<Point, std::allocator<Point> >::end() [72] std::operator|(std::_Ios_Fmtflags, std::_Ios_Fmtflags)
+  [81] std::_Vector_base<Point, std::allocator<Point> >::_Vector_impl::~_Vector_impl() [39] std::vector<Point, std::allocator<Point> >::back() [73] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag)::_Guard::_Guard(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*)
+  [62] std::_Vector_base<Point, std::allocator<Point> >::_M_deallocate(Point*, unsigned long) [97] std::vector<Point, std::allocator<Point> >::reserve(unsigned long) [74] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag)::_Guard::~_Guard()
+  [82] std::_Vector_base<Point, std::allocator<Point> >::_Vector_impl_data::_Vector_impl_data() [40] std::vector<Point, std::allocator<Point> >::push_back(Point&&) [42] operator new(unsigned long, void*)
+  [63] std::_Vector_base<Point, std::allocator<Point> >::_M_get_Tp_allocator() [98] std::vector<Point, std::allocator<Point> >::vector() [12] _init
